@@ -1,4 +1,4 @@
-import ReservationCard from "./ReservationCard";
+import ReservationCard from '@/app/_components/ReservationCard';
 
 export default function Page() {
   // CHANGE
@@ -7,7 +7,7 @@ export default function Page() {
   return (
     <div>
       <h2 className="font-semibold text-2xl text-accent-400 mb-7">
-        Your reservations
+        Your reservation
       </h2>
 
       {bookings.length === 0 ? (

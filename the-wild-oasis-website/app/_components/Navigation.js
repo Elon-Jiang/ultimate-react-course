@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 export default function Navigation() {
   return (
@@ -15,10 +15,7 @@ export default function Navigation() {
           </Link>
         </li>
         <li>
-          <Link
-            href="/account"
-            className="hover:text-accent-400 transition-colors"
-          >
+          <Link href="/account" className="hover:text-accent-400 transition-colors">
             Guest area
           </Link>
         </li>
